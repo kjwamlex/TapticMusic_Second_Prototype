@@ -6,7 +6,7 @@ This prototype was build when I was mentally fell apart.
 
 Music and Haptic beat does not sync together on first try but does on second try.
 
-# What happened to the whole project?
+# What happened to the TapticMusic?
 
 TapticMusic (Release) was released to the App Store, with completely different design,
 
