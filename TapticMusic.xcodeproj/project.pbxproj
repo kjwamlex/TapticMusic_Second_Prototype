@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		881FB5891E708832009D2188 /* IMG_1129.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 881FB5881E708832009D2188 /* IMG_1129.PNG */; };
+		882BDE901EB8F8500032F25E /* AlbumArt.png in Resources */ = {isa = PBXBuildFile; fileRef = 882BDE8F1EB8F8500032F25E /* AlbumArt.png */; };
+		8831D6611E797B1A003B8175 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8831D65F1E797B1A003B8175 /* Interface.storyboard */; };
+		8831D6631E797B1A003B8175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8831D6621E797B1A003B8175 /* Assets.xcassets */; };
+		8831D66A1E797B1B003B8175 /* MiniTapticMusic Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8831D6691E797B1B003B8175 /* MiniTapticMusic Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8831D6711E797B1B003B8175 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8831D6701E797B1B003B8175 /* InterfaceController.swift */; };
+		8831D6731E797B1B003B8175 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8831D6721E797B1B003B8175 /* ExtensionDelegate.swift */; };
+		8831D6751E797B1B003B8175 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8831D6741E797B1B003B8175 /* NotificationController.swift */; };
+		8831D6771E797B1B003B8175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8831D6761E797B1B003B8175 /* Assets.xcassets */; };
+		8831D67B1E797B1B003B8175 /* MiniTapticMusic.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8831D65D1E797B1A003B8175 /* MiniTapticMusic.app */; };
+		883F33DF1EBFB20100D2E521 /* 싸운날.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 883F33DE1EBFB20100D2E521 /* 싸운날.jpg */; };
+		883F33E11EBFB4F000D2E521 /* OOH-AHH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 883F33E01EBFB4F000D2E521 /* OOH-AHH.jpg */; };
+		884A06121EB9116F008C7637 /* watchView.png in Resources */ = {isa = PBXBuildFile; fileRef = 884A06111EB9116F008C7637 /* watchView.png */; };
+		884BF5061E71D98A00025B93 /* KNOCK KNOCK.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 884BF5051E71D98900025B93 /* KNOCK KNOCK.jpg */; };
+		886E36051EB263CD00561EBD /* Puzzle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 886E36041EB263CD00561EBD /* Puzzle.jpg */; };
+		886E36071EB2640400561EBD /* WHISTLE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 886E36061EB2640400561EBD /* WHISTLE.jpg */; };
+		886E36091EB2642B00561EBD /* TOKYO GIRL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 886E36081EB2642B00561EBD /* TOKYO GIRL.jpg */; };
+		886E360B1EB2646A00561EBD /* I'll be your man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 886E360A1EB2646A00561EBD /* I'll be your man.jpg */; };
+		88A92A0A1EAFB137001E9C80 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A92A091EAFB137001E9C80 /* Untitled.png */; };
 		88B7D0451E5348C6003A5208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B7D0441E5348C6003A5208 /* AppDelegate.swift */; };
 		88B7D0471E5348C6003A5208 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B7D0461E5348C6003A5208 /* ViewController.swift */; };
 		88B7D04A1E5348C6003A5208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B7D0481E5348C6003A5208 /* Main.storyboard */; };
@@ -15,9 +34,32 @@
 		88B7D0521E5348C6003A5208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B7D0501E5348C6003A5208 /* LaunchScreen.storyboard */; };
 		88B7D05D1E5348C6003A5208 /* TapticMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B7D05C1E5348C6003A5208 /* TapticMusicTests.swift */; };
 		88B7D0681E5348C6003A5208 /* TapticMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B7D0671E5348C6003A5208 /* TapticMusicUITests.swift */; };
+		88CE2CE81E561F7900037E82 /* The Little Things.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88CE2CE71E561F7900037E82 /* The Little Things.jpg */; };
+		88CE2CEA1E56201D00037E82 /* redfoo new thang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88CE2CE91E56201D00037E82 /* redfoo new thang.jpg */; };
+		88F4C4821EBABF100008E0A9 /* AlbumArt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F4C4811EBABF100008E0A9 /* AlbumArt.jpg */; };
+		88F4C4841EBAC04E0008E0A9 /* Spring Day.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F4C4831EBAC04E0008E0A9 /* Spring Day.jpg */; };
+		88F4C4861EBAC0830008E0A9 /* PLAYING WITH FIRE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F4C4851EBAC0830008E0A9 /* PLAYING WITH FIRE.jpg */; };
+		88F4C4881EBAC0EE0008E0A9 /* I NEED U.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F4C4871EBAC0EE0008E0A9 /* I NEED U.jpg */; };
+		88F4C48A1EBAC1650008E0A9 /* Back & Forth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F4C4891EBAC1650008E0A9 /* Back & Forth.jpg */; };
+		88F4C48C1EBAC21F0008E0A9 /* REALLY REALLY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F4C48B1EBAC21F0008E0A9 /* REALLY REALLY.jpg */; };
+		88F8AF101EBD0563004E34FE /* Alternative UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F8AF0F1EBD0563004E34FE /* Alternative UI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8831D66B1E797B1B003B8175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88B7D0391E5348C6003A5208 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8831D6681E797B1B003B8175;
+			remoteInfo = "MiniTapticMusic Extension";
+		};
+		8831D6791E797B1B003B8175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88B7D0391E5348C6003A5208 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8831D65C1E797B1A003B8175;
+			remoteInfo = MiniTapticMusic;
+		};
 		88B7D0591E5348C6003A5208 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 88B7D0391E5348C6003A5208 /* Project object */;
@@ -34,7 +76,54 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8831D6811E797B1B003B8175 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8831D66A1E797B1B003B8175 /* MiniTapticMusic Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8831D6831E797B1B003B8175 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8831D67B1E797B1B003B8175 /* MiniTapticMusic.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		881FB5881E708832009D2188 /* IMG_1129.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1129.PNG; sourceTree = "<group>"; };
+		882BDE8F1EB8F8500032F25E /* AlbumArt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlbumArt.png; sourceTree = "<group>"; };
+		8831D65D1E797B1A003B8175 /* MiniTapticMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniTapticMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8831D6601E797B1A003B8175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8831D6621E797B1A003B8175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8831D6641E797B1A003B8175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8831D6691E797B1B003B8175 /* MiniTapticMusic Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MiniTapticMusic Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8831D66F1E797B1B003B8175 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		8831D6701E797B1B003B8175 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8831D6721E797B1B003B8175 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8831D6741E797B1B003B8175 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		8831D6761E797B1B003B8175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8831D6781E797B1B003B8175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		883F33DE1EBFB20100D2E521 /* 싸운날.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "싸운날.jpg"; sourceTree = "<group>"; };
+		883F33E01EBFB4F000D2E521 /* OOH-AHH.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "OOH-AHH.jpg"; sourceTree = "<group>"; };
+		884A06111EB9116F008C7637 /* watchView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watchView.png; sourceTree = "<group>"; };
+		884BF5051E71D98900025B93 /* KNOCK KNOCK.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "KNOCK KNOCK.jpg"; sourceTree = "<group>"; };
+		886E36041EB263CD00561EBD /* Puzzle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Puzzle.jpg; sourceTree = "<group>"; };
+		886E36061EB2640400561EBD /* WHISTLE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WHISTLE.jpg; sourceTree = "<group>"; };
+		886E36081EB2642B00561EBD /* TOKYO GIRL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TOKYO GIRL.jpg"; sourceTree = "<group>"; };
+		886E360A1EB2646A00561EBD /* I'll be your man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "I'll be your man.jpg"; sourceTree = "<group>"; };
+		88A92A091EAFB137001E9C80 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
 		88B7D0411E5348C6003A5208 /* TapticMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapticMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B7D0441E5348C6003A5208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88B7D0461E5348C6003A5208 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,9 +138,25 @@
 		88B7D0631E5348C6003A5208 /* TapticMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapticMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B7D0671E5348C6003A5208 /* TapticMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapticMusicUITests.swift; sourceTree = "<group>"; };
 		88B7D0691E5348C6003A5208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88CE2CE71E561F7900037E82 /* The Little Things.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Little Things.jpg"; sourceTree = "<group>"; };
+		88CE2CE91E56201D00037E82 /* redfoo new thang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "redfoo new thang.jpg"; sourceTree = "<group>"; };
+		88F4C4811EBABF100008E0A9 /* AlbumArt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbumArt.jpg; sourceTree = "<group>"; };
+		88F4C4831EBAC04E0008E0A9 /* Spring Day.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spring Day.jpg"; sourceTree = "<group>"; };
+		88F4C4851EBAC0830008E0A9 /* PLAYING WITH FIRE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PLAYING WITH FIRE.jpg"; sourceTree = "<group>"; };
+		88F4C4871EBAC0EE0008E0A9 /* I NEED U.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "I NEED U.jpg"; sourceTree = "<group>"; };
+		88F4C4891EBAC1650008E0A9 /* Back & Forth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Back & Forth.jpg"; sourceTree = "<group>"; };
+		88F4C48B1EBAC21F0008E0A9 /* REALLY REALLY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "REALLY REALLY.jpg"; sourceTree = "<group>"; };
+		88F8AF0F1EBD0563004E34FE /* Alternative UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Alternative UI.swift"; path = "../Alternative UI.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8831D6661E797B1B003B8175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88B7D03E1E5348C6003A5208 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,12 +181,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8831D65E1E797B1A003B8175 /* MiniTapticMusic */ = {
+			isa = PBXGroup;
+			children = (
+				8831D65F1E797B1A003B8175 /* Interface.storyboard */,
+				8831D6621E797B1A003B8175 /* Assets.xcassets */,
+				8831D6641E797B1A003B8175 /* Info.plist */,
+			);
+			path = MiniTapticMusic;
+			sourceTree = "<group>";
+		};
+		8831D66D1E797B1B003B8175 /* MiniTapticMusic Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8831D6701E797B1B003B8175 /* InterfaceController.swift */,
+				88F4C4811EBABF100008E0A9 /* AlbumArt.jpg */,
+				8831D6721E797B1B003B8175 /* ExtensionDelegate.swift */,
+				8831D6741E797B1B003B8175 /* NotificationController.swift */,
+				8831D6761E797B1B003B8175 /* Assets.xcassets */,
+				8831D6781E797B1B003B8175 /* Info.plist */,
+				8831D66E1E797B1B003B8175 /* Supporting Files */,
+			);
+			path = "MiniTapticMusic Extension";
+			sourceTree = "<group>";
+		};
+		8831D66E1E797B1B003B8175 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8831D66F1E797B1B003B8175 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		88B7D0381E5348C6003A5208 = {
 			isa = PBXGroup;
 			children = (
 				88B7D0431E5348C6003A5208 /* TapticMusic */,
 				88B7D05B1E5348C6003A5208 /* TapticMusicTests */,
 				88B7D0661E5348C6003A5208 /* TapticMusicUITests */,
+				8831D65E1E797B1A003B8175 /* MiniTapticMusic */,
+				8831D66D1E797B1B003B8175 /* MiniTapticMusic Extension */,
 				88B7D0421E5348C6003A5208 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +231,8 @@
 				88B7D0411E5348C6003A5208 /* TapticMusic.app */,
 				88B7D0581E5348C6003A5208 /* TapticMusicTests.xctest */,
 				88B7D0631E5348C6003A5208 /* TapticMusicUITests.xctest */,
+				8831D65D1E797B1A003B8175 /* MiniTapticMusic.app */,
+				8831D6691E797B1B003B8175 /* MiniTapticMusic Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,10 +241,29 @@
 			isa = PBXGroup;
 			children = (
 				88B7D0441E5348C6003A5208 /* AppDelegate.swift */,
+				88F8AF0F1EBD0563004E34FE /* Alternative UI.swift */,
 				88B7D0461E5348C6003A5208 /* ViewController.swift */,
 				88B7D0481E5348C6003A5208 /* Main.storyboard */,
 				88B7D04E1E5348C6003A5208 /* Assets.xcassets */,
+				886E36081EB2642B00561EBD /* TOKYO GIRL.jpg */,
+				886E36061EB2640400561EBD /* WHISTLE.jpg */,
+				886E360A1EB2646A00561EBD /* I'll be your man.jpg */,
+				884A06111EB9116F008C7637 /* watchView.png */,
+				88F4C4831EBAC04E0008E0A9 /* Spring Day.jpg */,
+				882BDE8F1EB8F8500032F25E /* AlbumArt.png */,
+				88F4C4891EBAC1650008E0A9 /* Back & Forth.jpg */,
+				88CE2CE71E561F7900037E82 /* The Little Things.jpg */,
+				881FB5881E708832009D2188 /* IMG_1129.PNG */,
+				883F33E01EBFB4F000D2E521 /* OOH-AHH.jpg */,
 				88B7D0501E5348C6003A5208 /* LaunchScreen.storyboard */,
+				88CE2CE91E56201D00037E82 /* redfoo new thang.jpg */,
+				886E36041EB263CD00561EBD /* Puzzle.jpg */,
+				883F33DE1EBFB20100D2E521 /* 싸운날.jpg */,
+				88F4C48B1EBAC21F0008E0A9 /* REALLY REALLY.jpg */,
+				88F4C4871EBAC0EE0008E0A9 /* I NEED U.jpg */,
+				88F4C4851EBAC0830008E0A9 /* PLAYING WITH FIRE.jpg */,
+				88A92A091EAFB137001E9C80 /* Untitled.png */,
+				884BF5051E71D98900025B93 /* KNOCK KNOCK.jpg */,
 				88B7D0531E5348C6003A5208 /* Info.plist */,
 				88B7D04B1E5348C6003A5208 /* TapticMusic.xcdatamodeld */,
 			);
@@ -131,6 +291,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8831D65C1E797B1A003B8175 /* MiniTapticMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8831D6821E797B1B003B8175 /* Build configuration list for PBXNativeTarget "MiniTapticMusic" */;
+			buildPhases = (
+				8831D65B1E797B1A003B8175 /* Resources */,
+				8831D6811E797B1B003B8175 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8831D66C1E797B1B003B8175 /* PBXTargetDependency */,
+			);
+			name = MiniTapticMusic;
+			productName = MiniTapticMusic;
+			productReference = 8831D65D1E797B1A003B8175 /* MiniTapticMusic.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8831D6681E797B1B003B8175 /* MiniTapticMusic Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8831D6801E797B1B003B8175 /* Build configuration list for PBXNativeTarget "MiniTapticMusic Extension" */;
+			buildPhases = (
+				8831D6651E797B1B003B8175 /* Sources */,
+				8831D6661E797B1B003B8175 /* Frameworks */,
+				8831D6671E797B1B003B8175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MiniTapticMusic Extension";
+			productName = "MiniTapticMusic Extension";
+			productReference = 8831D6691E797B1B003B8175 /* MiniTapticMusic Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		88B7D0401E5348C6003A5208 /* TapticMusic */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88B7D06C1E5348C6003A5208 /* Build configuration list for PBXNativeTarget "TapticMusic" */;
@@ -138,10 +332,12 @@
 				88B7D03D1E5348C6003A5208 /* Sources */,
 				88B7D03E1E5348C6003A5208 /* Frameworks */,
 				88B7D03F1E5348C6003A5208 /* Resources */,
+				8831D6831E797B1B003B8175 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8831D67A1E797B1B003B8175 /* PBXTargetDependency */,
 			);
 			name = TapticMusic;
 			productName = TapticMusic;
@@ -194,9 +390,19 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Joonwoo Kim";
 				TargetAttributes = {
+					8831D65C1E797B1A003B8175 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5Y286T46P4;
+						ProvisioningStyle = Automatic;
+					};
+					8831D6681E797B1B003B8175 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5Y286T46P4;
+						ProvisioningStyle = Automatic;
+					};
 					88B7D0401E5348C6003A5208 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 5AKLERAMJ2;
+						DevelopmentTeam = 5Y286T46P4;
 						ProvisioningStyle = Automatic;
 					};
 					88B7D0571E5348C6003A5208 = {
@@ -229,17 +435,55 @@
 				88B7D0401E5348C6003A5208 /* TapticMusic */,
 				88B7D0571E5348C6003A5208 /* TapticMusicTests */,
 				88B7D0621E5348C6003A5208 /* TapticMusicUITests */,
+				8831D65C1E797B1A003B8175 /* MiniTapticMusic */,
+				8831D6681E797B1B003B8175 /* MiniTapticMusic Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8831D65B1E797B1A003B8175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8831D6631E797B1A003B8175 /* Assets.xcassets in Resources */,
+				8831D6611E797B1A003B8175 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8831D6671E797B1B003B8175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8831D6771E797B1B003B8175 /* Assets.xcassets in Resources */,
+				88F4C4821EBABF100008E0A9 /* AlbumArt.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88B7D03F1E5348C6003A5208 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881FB5891E708832009D2188 /* IMG_1129.PNG in Resources */,
+				88F4C48A1EBAC1650008E0A9 /* Back & Forth.jpg in Resources */,
+				886E36091EB2642B00561EBD /* TOKYO GIRL.jpg in Resources */,
+				886E36071EB2640400561EBD /* WHISTLE.jpg in Resources */,
+				884BF5061E71D98A00025B93 /* KNOCK KNOCK.jpg in Resources */,
+				88F4C4841EBAC04E0008E0A9 /* Spring Day.jpg in Resources */,
+				88F4C48C1EBAC21F0008E0A9 /* REALLY REALLY.jpg in Resources */,
+				88F4C4861EBAC0830008E0A9 /* PLAYING WITH FIRE.jpg in Resources */,
+				88F4C4881EBAC0EE0008E0A9 /* I NEED U.jpg in Resources */,
+				882BDE901EB8F8500032F25E /* AlbumArt.png in Resources */,
+				88CE2CE81E561F7900037E82 /* The Little Things.jpg in Resources */,
 				88B7D0521E5348C6003A5208 /* LaunchScreen.storyboard in Resources */,
+				886E360B1EB2646A00561EBD /* I'll be your man.jpg in Resources */,
+				883F33E11EBFB4F000D2E521 /* OOH-AHH.jpg in Resources */,
+				883F33DF1EBFB20100D2E521 /* 싸운날.jpg in Resources */,
+				886E36051EB263CD00561EBD /* Puzzle.jpg in Resources */,
 				88B7D04F1E5348C6003A5208 /* Assets.xcassets in Resources */,
+				88A92A0A1EAFB137001E9C80 /* Untitled.png in Resources */,
+				88CE2CEA1E56201D00037E82 /* redfoo new thang.jpg in Resources */,
+				884A06121EB9116F008C7637 /* watchView.png in Resources */,
 				88B7D04A1E5348C6003A5208 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +505,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8831D6651E797B1B003B8175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8831D6751E797B1B003B8175 /* NotificationController.swift in Sources */,
+				8831D6731E797B1B003B8175 /* ExtensionDelegate.swift in Sources */,
+				8831D6711E797B1B003B8175 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88B7D03D1E5348C6003A5208 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F8AF101EBD0563004E34FE /* Alternative UI.swift in Sources */,
 				88B7D0471E5348C6003A5208 /* ViewController.swift in Sources */,
 				88B7D04D1E5348C6003A5208 /* TapticMusic.xcdatamodeld in Sources */,
 				88B7D0451E5348C6003A5208 /* AppDelegate.swift in Sources */,
@@ -290,6 +545,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8831D66C1E797B1B003B8175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8831D6681E797B1B003B8175 /* MiniTapticMusic Extension */;
+			targetProxy = 8831D66B1E797B1B003B8175 /* PBXContainerItemProxy */;
+		};
+		8831D67A1E797B1B003B8175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8831D65C1E797B1A003B8175 /* MiniTapticMusic */;
+			targetProxy = 8831D6791E797B1B003B8175 /* PBXContainerItemProxy */;
+		};
 		88B7D05A1E5348C6003A5208 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 88B7D0401E5348C6003A5208 /* TapticMusic */;
@@ -303,6 +568,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		8831D65F1E797B1A003B8175 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8831D6601E797B1A003B8175 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		88B7D0481E5348C6003A5208 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -322,6 +595,76 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8831D67C1E797B1B003B8175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Y286T46P4;
+				IBSC_MODULE = MiniTapticMusic_Extension;
+				INFOPLIST_FILE = MiniTapticMusic/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Joonwoo.TapticMusicOld.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		8831D67D1E797B1B003B8175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Y286T46P4;
+				IBSC_MODULE = MiniTapticMusic_Extension;
+				INFOPLIST_FILE = MiniTapticMusic/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Joonwoo.TapticMusicOld.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		8831D67E1E797B1B003B8175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 5Y286T46P4;
+				INFOPLIST_FILE = "MiniTapticMusic Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Joonwoo.TapticMusicOld.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		8831D67F1E797B1B003B8175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 5Y286T46P4;
+				INFOPLIST_FILE = "MiniTapticMusic Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Joonwoo.TapticMusicOld.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
 		88B7D06A1E5348C6003A5208 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,12 +760,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5AKLERAMJ2;
+				DEVELOPMENT_TEAM = 5Y286T46P4;
 				INFOPLIST_FILE = TapticMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.TapticMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Joonwoo.TapticMusicOld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
@@ -430,12 +776,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5AKLERAMJ2;
+				DEVELOPMENT_TEAM = 5Y286T46P4;
 				INFOPLIST_FILE = TapticMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.TapticMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Joonwoo.TapticMusicOld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
@@ -500,6 +849,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8831D6801E797B1B003B8175 /* Build configuration list for PBXNativeTarget "MiniTapticMusic Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8831D67E1E797B1B003B8175 /* Debug */,
+				8831D67F1E797B1B003B8175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8831D6821E797B1B003B8175 /* Build configuration list for PBXNativeTarget "MiniTapticMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8831D67C1E797B1B003B8175 /* Debug */,
+				8831D67D1E797B1B003B8175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		88B7D03C1E5348C6003A5208 /* Build configuration list for PBXProject "TapticMusic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -516,6 +883,7 @@
 				88B7D06E1E5348C6003A5208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88B7D06F1E5348C6003A5208 /* Build configuration list for PBXNativeTarget "TapticMusicTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +892,7 @@
 				88B7D0711E5348C6003A5208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88B7D0721E5348C6003A5208 /* Build configuration list for PBXNativeTarget "TapticMusicUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +901,7 @@
 				88B7D0741E5348C6003A5208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

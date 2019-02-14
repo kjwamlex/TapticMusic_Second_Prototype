@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MiniTapticMusic (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>MiniTapticMusic.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>TapticMusic.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>8831D65C1E797B1A003B8175</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>88B7D0401E5348C6003A5208</key>
 		<dict>
 			<key>primary</key>
