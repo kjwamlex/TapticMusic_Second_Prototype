@@ -167,61 +167,10 @@ class ViewController: UIViewController, WKNavigationDelegate, UIWebViewDelegate,
    
     override func viewWillAppear(_ animated: Bool) {
         
-        let videoType = "video you want to search"
-        
-        let youtubeApi = "https://www.googleapis.com/youtube/v3/videos?part=contentDetails%2C+snippet%2C+statistics&id=AKiiekaEHhI&key={AIzaSyAopwzRMLrTT5BE1ZQ92NL7fvKMHDKH7Sw}"
-        let urlAPI = NSURL(string: youtubeApi)
-        
-        var urlString = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=PLTDluH66q5mrDcWhGf1NWR2sYloM4XQ9n&key=AIzaSyAopwzRMLrTT5BE1ZQ92NL7fvKMHDKH7Sw"
-        
-        
-        
-        urlString = urlString.addingPercentEncoding( withAllowedCharacters: .urlQueryAllowed)!
-        let targetURL = URL(string: urlString)
-        let config = URLSessionConfiguration.default // Session Configuration
-        let session = URLSession(configuration: config)
-        // Create your request
-        let task = session.dataTask(with: targetURL!) {
-            
-            data, response, error in
-            
-            
-            if error != nil {
-                
-                print(error!.localizedDescription)
-                
-                
-                var alert = UIAlertView(title: "alert", message: "No data.", delegate: nil, cancelButtonTitle: "OK")
-                alert.show()
-                
-                
-                
-                return
-                
-            }
-                
-            else {
-                
-                
-                
-                
-                
-            do {
-                if let jsonResult = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.allowFragments) as? [String : AnyObject] {
-                    
-                    print("Response from YouTube: \(jsonResult)")
-                }
-            }
-            catch {
-                print("json error: \(error)")
-            }
-            
-        }
-            
-        }
+
+
         
         // Start the request
-        task.resume()
         
         
         
