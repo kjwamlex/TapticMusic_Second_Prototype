@@ -2,7 +2,7 @@
 
 Second Prototype of TapticMusic.
 
-This prototype was build when I was mentally fell apart.
+This prototype was built when I was mentally fell apart.
 
 Music and Haptic beat does not sync together on first try but does on second try.
 
