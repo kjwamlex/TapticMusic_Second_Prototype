@@ -454,7 +454,7 @@ class ViewController: UIViewController, WKNavigationDelegate, UIWebViewDelegate,
         
         if counter == 1 {
             
-            RunLoop.main.add(timer, forMode: RunLoop.Mode.commonModes)
+            RunLoop.main.add(timer, forMode: .commonModes)
             
         }
 

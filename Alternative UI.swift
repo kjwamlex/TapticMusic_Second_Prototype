@@ -315,7 +315,7 @@ class alternativeUI: UIViewController, UITableViewDelegate, UITableViewDataSourc
     var PLAYINGWITHFIRErepeatedBass = [0, 1184]
     
     
-    func playTheTaptic() {
+    @objc func playTheTaptic() {
         counter += 1
         
         playTaptics(repeatedBass: LittleThingsrepetitionBass, strongBass: LittleThingsMusicStrongBass, weakBass: LittleThingsMusicWeakBass, musicName: "The Little Things")
