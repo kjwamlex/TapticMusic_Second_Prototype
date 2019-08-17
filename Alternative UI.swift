@@ -84,10 +84,10 @@ class alternativeUI: UIViewController, UITableViewDelegate, UITableViewDataSourc
         
         
         
-        let videoType = "video you want to search"
+        _ = "video you want to search"
         
         let youtubeApi = "https://www.googleapis.com/youtube/v3/videos?part=contentDetails%2C+snippet%2C+statistics&id=AKiiekaEHhI&key={AIzaSyAopwzRMLrTT5BE1ZQ92NL7fvKMHDKH7Sw}"
-        let urlAPI = NSURL(string: youtubeApi)
+        _ = NSURL(string: youtubeApi)
         
         var urlString = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=PLTDluH66q5mrDcWhGf1NWR2sYloM4XQ9n&key=AIzaSyAopwzRMLrTT5BE1ZQ92NL7fvKMHDKH7Sw"
         
@@ -108,7 +108,7 @@ class alternativeUI: UIViewController, UITableViewDelegate, UITableViewDataSourc
                 print(error!.localizedDescription)
                 
                 
-                var alert = UIAlertView(title: "alert", message: "No data.", delegate: nil, cancelButtonTitle: "OK")
+                let alert = UIAlertView(title: "alert", message: "No data.", delegate: nil, cancelButtonTitle: "OK")
                 alert.show()
                 
                 
@@ -147,7 +147,7 @@ class alternativeUI: UIViewController, UITableViewDelegate, UITableViewDataSourc
         musicTitle.alpha = 0
 
         let url = NSURL(string:"https://www.youtube.com/")
-        let req = NSURLRequest(url:url! as URL)
+        _ = NSURLRequest(url:url! as URL)
         
         offSetUserValue.value = 0
         appleWatchOptionView.alpha = 0
@@ -176,7 +176,7 @@ class alternativeUI: UIViewController, UITableViewDelegate, UITableViewDataSourc
         tableView.delegate = self
     }
     
-    func appMovedToBackground() {
+    @objc func appMovedToBackground() {
         print("App moved to background!")
         showRelaunchMessage()
     }
@@ -227,7 +227,7 @@ class alternativeUI: UIViewController, UITableViewDelegate, UITableViewDataSourc
         return elements.count
     }
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    private func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         
 
@@ -375,11 +375,11 @@ class alternativeUI: UIViewController, UITableViewDelegate, UITableViewDataSourc
                     
                     if counter == strongBassIndicator - (Int(offSetUserValue.value) - 1) {
                         
-                        if (WCSession.default().isReachable) {
+                        if (WCSession.default.isReachable) {
                             
                             
                             let requestValues = ["command" : "StrongBass"]
-                            WCSession.default().sendMessage(requestValues, replyHandler: nil, errorHandler: nil)
+                            WCSession.default.sendMessage(requestValues, replyHandler: nil, errorHandler: nil)
                             
                         }
                         
@@ -404,11 +404,11 @@ class alternativeUI: UIViewController, UITableViewDelegate, UITableViewDataSourc
                     
                     if counter == weakBassIndicator - (Int(offSetUserValue.value) - 1) {
                         
-                        if (WCSession.default().isReachable) {
+                        if (WCSession.default.isReachable) {
                             
                             let requestValues = ["command" : "WeakBass"]
                             
-                            WCSession.default().sendMessage(requestValues, replyHandler: nil, errorHandler: nil)
+                            WCSession.default.sendMessage(requestValues, replyHandler: nil, errorHandler: nil)
                             
                             
                         }
@@ -432,7 +432,7 @@ class alternativeUI: UIViewController, UITableViewDelegate, UITableViewDataSourc
                     if counter == fastBass - (Int(offSetUserValue.value) - 2) {
                         let requestValues = ["command" : "RepeatedBass"]
                         
-                        WCSession.default().sendMessage(requestValues, replyHandler: nil, errorHandler: nil)
+                        WCSession.default.sendMessage(requestValues, replyHandler: nil, errorHandler: nil)
                     }
                     
                 }
@@ -506,7 +506,7 @@ class alternativeUI: UIViewController, UITableViewDelegate, UITableViewDataSourc
         
         
         let musicCells = tableView.dequeueReusableCell(withIdentifier: "musicCell", for: indexPath) as! musicTableViewCell
-        var cellImageLayer: CALayer?  = musicCells.musicAlbumArtTableViewImage.layer
+        let cellImageLayer: CALayer?  = musicCells.musicAlbumArtTableViewImage.layer
         
         musicCells.musicTitleTableViewLabel.text = element
         musicCells.musicAlbumArtTableViewLabel.text = albumArtElement
@@ -551,7 +551,7 @@ class alternativeUI: UIViewController, UITableViewDelegate, UITableViewDataSourc
 
     }
     
-    func playNow() {
+    @objc func playNow() {
         counter = 0
         
         timer.invalidate()

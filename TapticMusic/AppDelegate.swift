@@ -20,11 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, WCSessionDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        if WCSession.isSupported() {
-            let wcsession = WCSession.default()
-            wcsession.delegate = self
-            wcsession.activate()
-        }
         
         
         return true

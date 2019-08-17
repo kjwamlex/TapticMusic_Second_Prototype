@@ -217,7 +217,7 @@ class ViewController: UIViewController, WKNavigationDelegate, UIWebViewDelegate,
         })
                 
         if WCSession.isSupported() { // check if the device support to handle an Apple Watch
-            let session = WCSession.default()
+            let session = WCSession.default
             session.delegate = self
             session.activate() // activate the session
             
@@ -289,7 +289,7 @@ class ViewController: UIViewController, WKNavigationDelegate, UIWebViewDelegate,
     func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
         
         if WCSession.isSupported() { // check if the device support to handle an Apple Watch
-            let session = WCSession.default()
+            let session = WCSession.default
             session.delegate = self
             session.activate() //activate the session
             
@@ -367,7 +367,7 @@ class ViewController: UIViewController, WKNavigationDelegate, UIWebViewDelegate,
 
     }
     
-    func playNow() {
+    @objc func playNow() {
         counter = 0
         
         timer.invalidate()
@@ -379,7 +379,7 @@ class ViewController: UIViewController, WKNavigationDelegate, UIWebViewDelegate,
     }
     
     
-    func playTheTaptic() {
+    @objc func playTheTaptic() {
         counter += 1
 
         playTaptics(repeatedBass: LittleThingsrepetitionBass, strongBass: LittleThingsMusicStrongBass, weakBass: LittleThingsMusicWeakBass, musicName: "Little Things")
@@ -454,7 +454,7 @@ class ViewController: UIViewController, WKNavigationDelegate, UIWebViewDelegate,
         
         if counter == 1 {
             
-            RunLoop.main.add(timer, forMode: RunLoopMode.commonModes)
+            RunLoop.main.add(timer, forMode: RunLoop.Mode.commonModes)
             
         }
 
@@ -473,11 +473,11 @@ class ViewController: UIViewController, WKNavigationDelegate, UIWebViewDelegate,
             
             if counter == strongBassIndicator - Int(offSetUserValue.value) {
                 
-                if (WCSession.default().isReachable) {
+                if (WCSession.default.isReachable) {
                     
 
                     let requestValues = ["command" : "StrongBass"]
-                    WCSession.default().sendMessage(requestValues, replyHandler: nil, errorHandler: nil)
+                    WCSession.default.sendMessage(requestValues, replyHandler: nil, errorHandler: nil)
 
                 }
 
@@ -502,11 +502,11 @@ class ViewController: UIViewController, WKNavigationDelegate, UIWebViewDelegate,
             
             if counter == weakBassIndicator - Int(offSetUserValue.value) {
                 
-                if (WCSession.default().isReachable) {
+                if (WCSession.default.isReachable) {
                     
                     let requestValues = ["command" : "WeakBass"]
                     
-                    WCSession.default().sendMessage(requestValues, replyHandler: nil, errorHandler: nil)
+                    WCSession.default.sendMessage(requestValues, replyHandler: nil, errorHandler: nil)
                     
                
                 }
@@ -530,7 +530,7 @@ class ViewController: UIViewController, WKNavigationDelegate, UIWebViewDelegate,
                  if counter == fastBass - Int(offSetUserValue.value) {
                 let requestValues = ["command" : "RepeatedBass"]
                 
-                WCSession.default().sendMessage(requestValues, replyHandler: nil, errorHandler: nil)
+                    WCSession.default.sendMessage(requestValues, replyHandler: nil, errorHandler: nil)
             }
                 
             }
